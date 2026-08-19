@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Abbas | Generative AI & LLM Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Animated Background Particles -->
+<div class="particles" id="particles"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+    <div class="logo">Hassan<span>.</span>Abbas</div>
+    <div class="menu" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="badge">
+            <span class="pulse"></span>
+            Available for AI Projects & Collaborations
+        </div>
+
+        <h1>
+            Hassan <span class="gradient">Abbas</span>
+        </h1>
+
+        <h2 class="typing-text">
+            <span id="typed-text"></span><span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-desc">
+            I build production-ready AI systems using <strong>Python</strong>, 
+            <strong>LangChain</strong>, <strong>LangGraph</strong>, Advanced RAG, 
+            Multi-Agent architectures and modern Generative AI stacks.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn btn-primary">
+                <span>View Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="section-title reveal">
+        <span>About Me</span>
+    <h2>Who I Am</h2>
+    </div>
+    <div class="about-container reveal">
+        <div class="profile-box">
+            <div class="profile-glow"></div>
+            <img src="hassan.jpg" alt="Hassan Abbas">
+        </div>
+
+        <div class="about-text">
+            <h3>Hi, I'm Hassan Abbas 👋</h3>
+            <p>
+                I'm a <strong>Generative AI & LLM Engineer</strong> passionate about building 
+                intelligent systems that solve real-world problems. My focus is on creating 
+                practical, scalable AI applications rather than just demos.
+            </p>
+            <p>
+                I specialize in <strong>Large Language Models</strong>, AI Agents, 
+                Retrieval-Augmented Generation (RAG), multi-agent orchestration with 
+                LangGraph & AutoCrew, and end-to-end AI automation pipelines.
+            </p>
+            <p>
+                I love turning complex ideas into clean, working products — from intelligent 
+                chatbots and knowledge systems to autonomous agents that can reason and act.
+            </p>
+
+            <div class="about-tags">
+                <span>Python</span>
+                <span>LangChain</span>
+                <span>LangGraph</span>
+                <span>Advanced RAG</span>
+                <span>AI Agents</span>
+                <span>LLM Apps</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="section-title reveal">
+        <span>Expertise</span>
+        <h2>AI Technologies & Tools</h2>
+        <p>Technologies I use to design, build and deploy intelligent systems.</p>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card reveal">
+            <div class="skill-icon">🐍</div>
+            <h3>Python</h3>
+            <p>Core language for AI, automation, data pipelines and backend systems.</p>
+            <div class="progress"><div class="progress-bar" data-width="95"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">🧠</div>
+            <h3>Generative AI</h3>
+            <p>Building applications powered by modern LLMs and generative models.</p>
+            <div class="progress"><div class="progress-bar" data-width="90"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">🤖</div>
+            <h3>LLM Engineering</h3>
+            <p>Prompt engineering, fine-tuning strategies, evaluation & productionization.</p>
+            <div class="progress"><div class="progress-bar" data-width="88"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">🔗</div>
+            <h3>LangChain</h3>
+            <p>LLM workflows, tools, memory, chains and intelligent applications.</p>
+            <div class="progress"><div class="progress-bar" data-width="92"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">🕸️</div>
+            <h3>LangGraph</h3>
+            <p>Stateful multi-step agent workflows and complex reasoning graphs.</p>
+            <div class="progress"><div class="progress-bar" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">📚</div>
+            <h3>Advanced RAG</h3>
+            <p>Hybrid search, re-ranking, multi-hop retrieval and knowledge systems.</p>
+            <div class="progress"><div class="progress-bar" data-width="87"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">👥</div>
+            <h3>Multi-Agent Systems</h3>
+            <p>Collaborative agents with AutoCrew / CrewAI style architectures.</p>
+            <div class="progress"><div class="progress-bar" data-width="82"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+            <div class="skill-icon">⚙️</div>
+            <h3>AI Automation</h3>
+            <p>End-to-end automation of real-world workflows using intelligent agents.</p>
+            <div class="progress"><div class="progress-bar" data-width="80"></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <div class="section-title reveal">
+        <span>Journey</span>
+        <h2>Experience & Focus Areas</h2>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2026 – Present</span>
+                <h3>Generative AI & LLM Engineer</h3>
+                <p>
+                    Building production-oriented AI systems including RAG pipelines, 
+                    multi-agent architectures, custom AI assistants and automation tools 
+                    using Python, LangChain, LangGraph and modern LLM APIs.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">Focus Areas</span>
+                <h3>What I Specialize In</h3>
+                <ul class="focus-list">
+                    <li>Advanced RAG systems with hybrid retrieval & re-ranking</li>
+                    <li>Autonomous and tool-using AI Agents</li>
+                    <li>Multi-agent collaboration (LangGraph / AutoCrew style)</li>
+                    <li>LLM application architecture & evaluation</li>
+                    <li>AI-powered workflow automation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">Core Stack</span>
+                <h3>Technologies I Work With Daily</h3>
+                <p>
+                    Python • LangChain • LangGraph • OpenAI / Anthropic / Open-source LLMs • 
+                    Vector Databases • FastAPI • Streamlit / Gradio • Docker • Git
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHAT I BUILD -->
+<section class="capabilities">
+    <div class="section-title reveal">
+        <span>Capabilities</span>
+        <h2>What I Build</h2>
+    </div>
+
+    <div class="build-grid">
+        <div class="build-card reveal">
+            <div class="build-icon">🤖</div>
+            <h3>AI Agents</h3>
+            <p>Autonomous, tool-using agents that can plan, reason and execute multi-step tasks.</p>
+        </div>
+        <div class="build-card reveal">
+            <div class="build-icon">📖</div>
+            <h3>RAG Systems</h3>
+            <p>Knowledge systems that retrieve precise context before generating accurate answers.</p>
+        </div>
+        <div class="build-card reveal">
+            <div class="build-icon">💬</div>
+            <h3>LLM Applications</h3>
+            <p>Production-ready chatbots, assistants and AI products powered by modern LLMs.</p>
+        </div>
+        <div class="build-card reveal">
+            <div class="build-icon">⚡</div>
+            <h3>AI Automation</h3>
+            <p>Smart systems that reduce repetitive work and boost productivity through intelligence.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <div class="section-title reveal">
+        <h2>Featured Projects</h2>
+        <p>Selected AI systems and applications I've designed and built.</p>
+    </div>
+
+    <div class="project-grid">
+        <div class="project-card reveal">
+            <div class="project-header">
+                <span class="project-number">01</span>
+                <span class="project-type">AI Agent</span>
+            </div>
+            <h3>AI Travel Planner</h3>
+            <p>
+                An intelligent multi-agent travel planning system that generates 
+                personalized itineraries, recommendations and day-by-day plans 
+                based on user preferences, budget and constraints.
+            </p>
+            <div class="tags">
+                <span class="tag">Generative AI</span>
+                <span class="tag">LLM</span>
+                <span class="tag">AI Agents</span>
+                <span class="tag">LangChain</span>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-header">
+                <span class="project-number">02</span>
+                <span class="project-type">RAG</span>
+            </div>
+            <h3>Intelligent RAG Assistant</h3>
+            <p>
+                A knowledge-based AI assistant capable of retrieving relevant information 
+                from documents, PDFs and knowledge bases, then generating accurate, 
+                context-aware answers with source citations.
+            </p>
+            <div class="tags">
+                <span class="tag">Advanced RAG</span>
+                <span class="tag">Vector DB</span>
+                <span class="tag">LLM</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-header">
+                <span class="project-number">03</span>
+                <span class="project-type">Multi-Agent</span>
+            </div>
+            <h3>Multi-Agent AI System</h3>
+            <p>
+                A collaborative multi-agent architecture where specialized agents 
+                (researcher, planner, executor, critic) work together to solve 
+                complex tasks with better reasoning and quality control.
+            </p>
+            <div class="tags">
+                <span class="tag">LangGraph</span>
+                <span class="tag">AutoCrew</span>
+                <span class="tag">Agents</span>
+                <span class="tag">Orchestration</span>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-header">
+                <span class="project-number">04</span>
+                <span class="project-type">LLM App</span>
+            </div>
+            <h3>AI Research Assistant</h3>
+            <p>
+                An intelligent research assistant designed to collect, process, 
+                summarize and synthesize information from multiple sources into 
+                structured insights and reports.
+            </p>
+            <div class="tags">
+                <span class="tag">LLM</span>
+                <span class="tag">RAG</span>
+                <span class="tag">Summarization</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-header">
+                <span class="project-number">05</span>
+                <span class="project-type">Automation</span>
+            </div>
+            <h3>AI Workflow Automation</h3>
+            <p>
+                AI-powered workflow automation system that reduces repetitive 
+                manual tasks, handles document processing, data extraction and 
+                intelligent decision routing.
+            </p>
+            <div class="tags">
+                <span class="tag">AI Automation</span>
+                <span class="tag">Agents</span>
+                <span class="tag">Python</span>
+                <span class="tag">Pipelines</span>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-header">
+                <span class="project-number">06</span>
+                <span class="project-type">Custom AI</span>
+            </div>
+            <h3>Custom AI Assistant</h3>
+            <p>
+                A personalized AI assistant built around custom instructions, 
+                tools, memory and domain knowledge — designed for specific 
+                business or personal use cases.
+            </p>
+            <div class="tags">
+                <span class="tag">LLM</span>
+                <span class="tag">LangChain</span>
+                <span class="tag">RAG</span>
+                <span class="tag">Memory</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- QUICK STATS -->
+<section class="stats-section" id="stats">
+    <div class="section-title reveal">
+        <span>Quick Stats</span>
+        <h2>By the Numbers</h2>
+        <p>A quick look at my AI development journey.</p>
+    </div>
+
+    <div class="stats-container">
+
+        <div class="stat-card reveal">
+            <div class="stat-icon">🚀</div>
+            <div class="stat-num" data-target="15">0</div>
+            <div class="stat-plus">+</div>
+            <div class="stat-label">AI Projects</div>
+        </div>
+
+        <div class="stat-card reveal">
+            <div class="stat-icon">⚙️</div>
+            <div class="stat-num" data-target="8">0</div>
+            <div class="stat-plus">+</div>
+            <div class="stat-label">Technologies</div>
+        </div>
+
+        <div class="stat-card reveal">
+            <div class="stat-icon">📅</div>
+            <div class="stat-num" data-target="3">0</div>
+            <div class="stat-plus">+</div>
+            <div class="stat-label">Years Focus</div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SOCIAL -->
+<section id="social">
+    <div class="section-title reveal">
+        <span>Connect</span>
+        <h2>Find Me Online</h2>
+        <p>Let's connect and build something intelligent together.</p>
+    </div>
+
+    <div class="social-grid">
+        <a href="https://wa.me/923208192805" class="social-card reveal" target="_blank" rel="noopener">
+            <div class="social-icon"><!-- WhatsApp -->
+<div class="social-icon">
+    <i class="fa-brands fa-whatsapp"></i>
+</div></div>
+            <h3>WhatsApp</h3>
+            <p>Chat with me</p>
+        </a>
+        <a href="https://www.instagram.com/hassanabbassherazi/" class="social-card reveal" target="_blank" rel="noopener">
+            <div class="social-icon"><!-- Instagram -->
+<div class="social-icon">
+    <i class="fa-brands fa-instagram"></i>
+</div></div>
+            <h3>Instagram</h3>
+            <p>@hassanabbassherazi</p>
+        </a>
+        <a href="https://github.com/Hassanabbasdeveloper" class="social-card reveal" target="_blank" rel="noopener">
+            <div class="social-icon"><!-- GitHub -->
+<div class="social-icon">
+    <i class="fa-brands fa-github"></i>
+</div></div>
+            <h3>GitHub</h3>
+            <p>Hassanabbasdeveloper</p>
+        </a>
+        <a href="mailto:hassanabbasdeveloper000@gmail.com" class="social-card reveal">
+            <div class="social-icon"><i class="fa-solid fa-envelope"></i></div>
+            <h3>Email</h3>
+            <p>hassanabbasdeveloper000@gmail.com</p>
+        </a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="contact-box reveal">
+        <div class="contact-glow"></div>
+        <h2>Let's Build the Future 🤖</h2>
+        <p>
+            Have an AI idea, project, or collaboration in mind?<br>
+            I'm always open to discussing intelligent systems and new opportunities.
+        </p>
+        <div class="contact-actions">
+            <a href="mailto:hassanabbasdeveloper000@gmail.com" class="btn btn-primary">
+                <span>Email Me</span>
+            </a>
+            <a href="https://wa.me/923208192805" class="btn btn-secondary" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© <span id="year"></span> Hassan Abbas — Generative AI & LLM Engineer</p>
+    <p class="footer-sub">Built with passion for intelligent systems</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
